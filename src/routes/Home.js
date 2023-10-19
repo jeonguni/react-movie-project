@@ -18,7 +18,6 @@ function Home() {
     //     setLoading(false);
     //   });
   }, []);
-  console.log(movies);
   return (
     <div>
       {loading ? (
